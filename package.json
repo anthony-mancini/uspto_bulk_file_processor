@@ -1,0 +1,28 @@
+{
+  "name": "uspto_bulk_file_processor",
+  "version": "1.0.0",
+  "description": "Code for fetching, synchronizing, and processing USPTO bulk data.",
+  "main": "./out/index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "docs": "npx typedoc --plugin typedoc-plugin-markdown ./src/index.ts",
+    "sync": "node ./out/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "GNU AGPLv3 or later",
+  "devDependencies": {
+    "@types/node": "^14.14.35",
+    "@types/xml2js": "^0.4.8",
+    "typedoc": "^0.20.34",
+    "typedoc-plugin-markdown": "^3.6.0",
+    "typescript": "^4.2.3"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.4",
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.12.2",
+    "xml2js": "^0.4.23"
+  }
+}

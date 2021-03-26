@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "incremental": true,
+    "outDir": "./out",
+    "sourceMap": true,
+  },
+  "include": ["src/**/*"],
+}
